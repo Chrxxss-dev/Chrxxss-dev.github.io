@@ -1,0 +1,60 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="San_valentin.css">
+    <script src="san_valentin.js"></script>
+</head>
+<body>
+    <link rel="stylesheet" href="San_valentin.css">
+    <div class="background-hearts">
+        <span class="heart" style="left: 10%; animation-delay: 0s;">❤️</span>
+        <span class="heart" style="left: 30%; animation-delay: 3s;">💝</span>
+        <span class="heart" style="left: 50%; animation-delay: 6s;">💖</span>
+        <span class="heart" style="left: 70%; animation-delay: 9s;">💕</span>
+        <span class="heart" style="left: 90%; animation-delay: 12s;">❤️</span>
+    </div>
+
+    <div class="container">
+        <div class="titulo-container">
+            <span class="float-decoration dec1">❤️</span>
+            <span class="float-decoration dec2">🌹</span>
+            <span class="float-decoration dec3">💝</span>
+            <span class="float-decoration dec4">❤️</span>
+            <h1>¿Quieres ser mi San Valentín?</h1>
+        </div>
+        <div class="buttons">
+            <button id="siBtn" onclick="mostrarMensaje()">Sípirili</button>
+            <button id="noBtn" onclick="mostrarRechazo()">Noporolo</button>
+        </div> <br>
+
+    
+    <div class="music-container">
+        <button id="playMusicBtn" onclick="toggleMusic()">🎵 Reproducir </button>
+    </div>
+        <div id="mensaje" class="scroll-container">
+             <br> 
+            Si supieras cuánto vales, cuánto significas , jamás dudarías de lo increíble que eres. Porque eres luz, eres magia, eres amor en su forma mas confusa. Y aunque las palabras nunca serán suficientes para expresar todo lo que vales, quiero que lo sepas: Te quiero con todo mi corazón.🤎 <br>
+            Besos wpa, te quiero mucho  muchisisisimo💕 <br><br>
+            <img src="./img_msc/Imagen de WhatsApp 2025-02-03 a las 15.00.57_6bd863c0.jpg" alt="Sípirili" class="mensaje-img">
+            <br> Ahora Cierra los ojos si? 🙃
+            <button id="regresarBtn" onclick="volverAIntentar()">🔙 Regresar</button>
+        </div>
+    </div>    
+    </div>
+    <div id="rechazo" class="scroll-container">
+        <div class="emoji">💩</div>
+        <div class="mensaje">Para que le picas si sabes que te dire que te vayas a la cola 🙄</div>
+        <img src="./img_msc/Imagen de WhatsApp 2025-02-03 a las 15.00.57_95d4d244.jpg" alt="Noporolo" class="mensaje-img">
+        <br>
+        <button class="retry-btn" onclick="volverAIntentar()">¿Volver a intentar?</button>
+    </div>
+
+    
+    <audio id="backgroundMusic" loop>
+        <source src="./img_msc/Young Cister - miau (Video Oficial).mp3" type="audio/mp3">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    
+</body>
+</html>
